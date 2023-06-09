@@ -25,6 +25,11 @@
     
 }
 
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
 .item {
     color: white;
     background-color: #e91e63;
@@ -49,5 +54,14 @@ button {
     border: none;
     font-size: 1rem;
     cursor: pointer;
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
