@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0423;
+}
+
+
+#left, #right {
+    width: 18.75rem;
+    height: 25rem;
+    border: 2px dashed #fff;
+    margin: 1.2rem;
+    
+}
+
+.item {
+    color: white;
+    background-color: #e91e63;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    height: 60px;
+    cursor: grab;
+    padding: 30px;
+}
+
+.dragging {
+    opacity: .5;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #e91e63;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
